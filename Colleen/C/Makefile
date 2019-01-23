@@ -6,7 +6,7 @@
 #    By: vsteffen <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/06 20:52:05 by vsteffen          #+#    #+#              #
-#    Updated: 2018/03/20 18:17:27 by vsteffen         ###   ########.fr        #
+#    Updated: 2019/01/23 20:29:26 by vsteffen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ CFLAGS = -Wall -Wextra -Werror -g
 
 ROOT  	=	$(shell /bin/pwd)
 OPATH 	=	$(ROOT)/objs
-CPATH 	=	$(ROOT)/srcs
+CPATH 	=	$(ROOT)
 
 SRC =	Colleen.c
 
