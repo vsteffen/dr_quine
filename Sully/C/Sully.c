@@ -12,7 +12,7 @@ void	free_alloc(char *file, char *file_exec, char *command)
 
 int	main(void)
 {
-	int i = 30;
+	int i = 5;
 	FILE *fd;
 	char *file;
 	char *file_exec;
