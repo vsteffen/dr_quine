@@ -1,3 +1,10 @@
+# Binaries and generated files
+Colleen/*/Colleen
+Grace/*/Grace
+Grace/*/Grace_kid.*
+Sully/*/Sully
+Sully/*/Sully_*
+
 # Prerequisites
 *.d
 

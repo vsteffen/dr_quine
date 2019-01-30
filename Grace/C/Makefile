@@ -56,6 +56,8 @@ clean:
 	@echo "Deleting OBJS."
 	$(RM) -Rf $(OPATH)
 	@echo "\033[32mOBJS deleted.\033[0m\n"
+	$(RM) -Rf $(ROOT)/Grace_kid.c
+	@echo "\033[32mGrace kid deleted.\033[0m\n"
 
 fclean: clean
 	@echo "\n\033[33m\033[4m\033[1m → Colleen \"Fclean\"\033[0m"
